@@ -1,0 +1,110 @@
+/* nav */
+body{
+  background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMTAwMzgxLWltYWdlLWpvYjYzMC1uXzEtbDBnMDdvdWUuanBn.jpg');
+}
+nav{
+    border: 3px solid black;
+    
+    /* height: 50px; */
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.537);
+}
+.int{
+    
+    margin: 10px;
+}
+
+.MySocial {
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+  }
+
+  .Sites {
+    border-radius: 20%;
+    font-size:2px;
+    border: solid grey;
+    margin: 5px;
+    /* width: 100%; */
+    padding: 5px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    display: flex
+    ;
+  }
+  
+  #Site_a:hover {
+    
+    background-color: lightblue;
+  }
+  #Site_b:hover {
+    
+    background-color: rgb(66, 66, 71);
+  }
+  #Site_c:hover {
+    background-color: rgb(201, 97, 32);
+  } 
+   .pic {
+    margin: 1em;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: solid white;
+  }
+/* proFile */
+  .proFile{
+    /* border: solid ; */
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap:wrap;
+   
+    align-items:center;
+   
+    /* background-color: rgb(0, 200, 255); */
+  }
+  .name{
+    margin: 2em;
+    
+  }
+  #imge{
+    border: solid;
+    border-radius: 50%;
+  }
+  /* info  */
+
+.INTRO{
+  border: solid;
+  display: flex;
+  background-color: rgba(240, 248, 255, 0.655);
+}
+   .title{
+    background-color: rgba(0, 255, 255, 0.288);
+   }
+
+  .ProfessionalSummary{
+    width: 60%;
+    /* border: solid black; */
+    margin: 1em;
+    
+
+  }
+  .TechnicalSkills{
+    width: 40%;
+    /* border: solid; */
+    margin: 1em;
+
+
+  }
+  .Descriptions{
+    background-color: rgba(128, 128, 128, 0.550);
+    
+    padding: 2em;
+    justify-content: space-evenly;
+    text-align: center;
+  }
