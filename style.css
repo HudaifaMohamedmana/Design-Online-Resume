@@ -75,7 +75,14 @@ nav{
   #imge{
     border: solid;
     border-radius: 50%;
+    height: 200px;
+
   }
+  .imge:hover {
+    zoom: 120%;
+    transition-duration: 25s;
+  }
+
   /* info  */
 
 .INTRO{
@@ -107,4 +114,41 @@ nav{
     padding: 2em;
     justify-content: space-evenly;
     text-align: center;
+  }
+  .dom{
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  .dom img{
+    display: none;
+  }
+  #imges{
+    width: 100%;
+    
+  }
+  img.displaySlide{
+    display: block;
+  }
+  .dom button{
+    opacity: .6;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+  }
+  .back{
+    left: 1%;
+  }
+  .next{
+    right: 1%;
   }
